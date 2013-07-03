@@ -9,6 +9,8 @@
     <file path="/index.php" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372828439922" ignored="false" />
     <file path="/phpinfo.php" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372829110034" ignored="false" />
     <file path="/home.ctp" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372836958815" ignored="false" />
+    <file path="/.gitignore" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372839568675" ignored="false" />
+    <file path="/README.md" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372839961135" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +57,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.ctp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Pages/home.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="7" selection-start="6341" selection-end="6341" vertical-scroll-proportion="0.31610942">
+            <state line="193" column="7" selection-start="6341" selection-end="6341" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="12" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="7" selection-start="577" selection-end="577" vertical-scroll-proportion="0.33632287">
               <folding />
             </state>
           </provider>
@@ -96,6 +116,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Gruntfile.coffee" />
         <option value="$PROJECT_DIR$/app/View/Pages/home.ctp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -233,11 +255,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2605178" sideWeight="0.67082536" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2605178" sideWeight="0.6701923" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298077" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -357,11 +379,6 @@
         <state line="24" column="3" selection-start="873" selection-end="873" vertical-scroll-proportion="0.06955178" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.5752608" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="17" selection-start="512" selection-end="512" vertical-scroll-proportion="0.4404946">
@@ -399,7 +416,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Pages/home.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="7" selection-start="6341" selection-end="6341" vertical-scroll-proportion="0.31610942">
+        <state line="193" column="7" selection-start="6341" selection-end="6341" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="12" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="577" selection-end="577" vertical-scroll-proportion="0.33632287">
           <folding />
         </state>
       </provider>
