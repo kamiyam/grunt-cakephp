@@ -10,7 +10,7 @@
     <file path="/phpinfo.php" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372829110034" ignored="false" />
     <file path="/home.ctp" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372836958815" ignored="false" />
     <file path="/.gitignore" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372839568675" ignored="false" />
-    <file path="/README.md" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372839961135" ignored="false" />
+    <file path="/README.md" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372840096412" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="7" selection-start="577" selection-end="577" vertical-scroll-proportion="0.33632287">
+            <state line="8" column="10" selection-start="441" selection-end="441" vertical-scroll-proportion="0.17937219">
               <folding />
             </state>
           </provider>
@@ -249,13 +249,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="29" width="1900" height="1160" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2605178" sideWeight="0.6701923" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2605178" sideWeight="0.6701923" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298077" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -430,7 +430,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="577" selection-end="577" vertical-scroll-proportion="0.33632287">
+        <state line="8" column="10" selection-start="441" selection-end="441" vertical-scroll-proportion="0.17937219">
           <folding />
         </state>
       </provider>
