@@ -10,7 +10,7 @@
     <file path="/phpinfo.php" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372829110034" ignored="false" />
     <file path="/home.ctp" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372836958815" ignored="false" />
     <file path="/.gitignore" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372839568675" ignored="false" />
-    <file path="/README.md" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372840096412" ignored="false" />
+    <file path="/README.md" changelist="928f1c34-7f30-4098-ae61-e64b79919d35" time="1372840265610" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="10" selection-start="441" selection-end="441" vertical-scroll-proportion="0.17937219">
+            <state line="18" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="0.40358743">
               <folding />
             </state>
           </provider>
@@ -430,7 +430,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="441" selection-end="441" vertical-scroll-proportion="0.17937219">
+        <state line="18" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="0.40358743">
           <folding />
         </state>
       </provider>
