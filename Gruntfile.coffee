@@ -1,16 +1,19 @@
 "use strict"
 
+mountFolder = (connect, point) ->
+  return connect.static(require('path').resolve(point));
+
 proxySnippet = require("grunt-connect-proxy/lib/utils").proxyRequest
 
 module.exports = (grunt) ->
 
   # configurable paths
   config =
-    listen: 8000
+    listen: 3001  ## if use apache ... proxy setting
     server:
-      port: 3333
+      port: 3000
       start: "php -S localhost:"
-      ini: "/Applications/MAMP/bin/php/php5.4.10/conf/php.ini"   # -c option ini file path ex) /usr/local/etc/php/5.4/php.ini
+      ini: "/usr/local/etc/php/5.4/php.ini"   # -c option ini file path ex) /usr/local/etc/php/5.4/php.ini
       root: "app/webroot"   # -t option docment root file path ex)/htdocs
 
   # php -S localhost:8080 -t /path/to/app/docroot -c /path/to/app/php.ini
@@ -23,7 +26,7 @@ module.exports = (grunt) ->
   if config.server.root
     serverStart += " -t " + config.server.root
 
-  console.log(serverStart)
+  console.log serverStart
 
   verbose = grunt.verbose;
 
@@ -42,11 +45,16 @@ module.exports = (grunt) ->
       return
     verbose.ok "Exited with code: %d.", code
 
-
   # Project configuration.
   grunt.initConfig
 
     pkg: grunt.file.readJSON("package.json")
+
+    banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
+    '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
+    '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
+    '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
+    ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
 
     c: config
 
@@ -55,7 +63,7 @@ module.exports = (grunt) ->
         hostname: "localhost"
         port: '<%= c.listen %>'
         middleware: (connect, options) ->
-          return [ proxySnippet ]
+          return [ proxySnippet, mountFolder connect, '.' ]
 
       proxies: [
         context: "/"
@@ -77,7 +85,15 @@ module.exports = (grunt) ->
 
     open:
       server:
-        path: "http://localhost:<%= c.listen %>"
+        path: "http://localhost:<%= c.server.port %>"
+
+    phpunit:
+      classes:
+        dir: 'tests/php/'
+      options:
+        bin: 'vendor/bin/phpunit'
+        bootstrap: 'tests/php/phpunit.php'
+        colors: true
 
     coffee:
       grunt:
@@ -90,3 +106,4 @@ module.exports = (grunt) ->
 
   grunt.registerTask "init", ["coffee:grunt"]
   grunt.registerTask "default", [ "configureProxies", "connect", "open", "watch" ]
+
