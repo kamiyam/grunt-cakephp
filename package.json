@@ -1,8 +1,8 @@
 {
-  "name": "line",
+  "name": "grunt-cakephp",
   "private": true,
   "version": "0.0.1",
-  "description": "line",
+  "description": "grunt-cakephp",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -12,11 +12,8 @@
     "grunt-contrib-connect": "~0.3.0",
     "grunt-connect-proxy": "~0.1.5",
     "grunt-open": "~0.2.0",
-    "grunt-mocha": "~0.3.4",
     "matchdep": "~0.1.2",
-    "should": "~1.2.2",
     "grunt-phpunit": "~0.2.1"
   },
-  "repository": "git@bitbucket.org:msng/line.git",
   "author": "k5m"
 }

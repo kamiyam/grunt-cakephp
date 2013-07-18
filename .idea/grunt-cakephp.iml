@@ -7,10 +7,10 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
-          <root url="phar://$MODULE_DIR$/app/Vendor/composer.phar" />
+          <root url="phar:///Volumes/D/Dropbox/Private/Project/k5m/php/grunt-cakephp/composer.phar" />
         </CLASSES>
         <SOURCES>
-          <root url="phar://$MODULE_DIR$/app/Vendor/composer.phar" />
+          <root url="phar:///Volumes/D/Dropbox/Private/Project/k5m/php/grunt-cakephp/composer.phar" />
         </SOURCES>
       </library>
     </orderEntry>

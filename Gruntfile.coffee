@@ -1,7 +1,7 @@
 "use strict"
 
 mountFolder = (connect, point) ->
-  return connect.static(require('path').resolve(point));
+  return connect.static(require('path').resolve(point))
 
 proxySnippet = require("grunt-connect-proxy/lib/utils").proxyRequest
 
@@ -78,7 +78,7 @@ module.exports = (grunt) ->
         livereload: true
 
       php:
-        files: "**/*.php"
+        files: ["app/View/**/*.php","app/Config/*.php"]
 
       ctp:
         files: "**/*.ctp"

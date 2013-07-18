@@ -1,0 +1,12 @@
+{
+  "require": {
+    "cakephp/debug_kit": "2.2.*@dev",
+    "cakedc/migrations": "dev-develop"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "config": {
+    "vendor-dir": "app/Vendor/"
+  }
+}
