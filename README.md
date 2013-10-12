@@ -11,7 +11,7 @@ Our primary goal is to provide a structured framework that enables PHP users at 
 How to Use
 ----------------
 
-  git clone https://kamiyam@bitbucket.org/kamiyam/grunt-cakephp.git
+  git clone git@github.com:kamiyam/grunt-cakephp.git
 
   cd grunt-cakephp && npm install
 
