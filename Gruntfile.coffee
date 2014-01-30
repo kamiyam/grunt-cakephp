@@ -98,7 +98,7 @@ module.exports = (grunt) ->
     coffee:
       grunt:
         files:
-          "_Gruntfile.js": "Gruntfile.coffee"
+          ".Gruntfile.js": "Gruntfile.coffee"
 
 
   # load all grunt-plugin tasks
